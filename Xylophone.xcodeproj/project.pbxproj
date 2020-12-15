@@ -13,6 +13,7 @@
 		0BC51CFD2588CC55001C7681 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BC51CFB2588CC55001C7681 /* Main.storyboard */; };
 		0BC51CFF2588CC57001C7681 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0BC51CFE2588CC57001C7681 /* Assets.xcassets */; };
 		0BC51D022588CC57001C7681 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BC51D002588CC57001C7681 /* LaunchScreen.storyboard */; };
+		0BC51D0A2588CFD7001C7681 /* Sounds in Resources */ = {isa = PBXBuildFile; fileRef = 0BC51D092588CFD7001C7681 /* Sounds */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		0BC51CFE2588CC57001C7681 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0BC51D012588CC57001C7681 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0BC51D032588CC57001C7681 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0BC51D092588CFD7001C7681 /* Sounds */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Sounds; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +43,7 @@
 			isa = PBXGroup;
 			children = (
 				0BC51CF42588CC55001C7681 /* Xylophone */,
+				0BC51D092588CFD7001C7681 /* Sounds */,
 				0BC51CF32588CC55001C7681 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -56,15 +59,39 @@
 		0BC51CF42588CC55001C7681 /* Xylophone */ = {
 			isa = PBXGroup;
 			children = (
+				0BC51D0D2588E48C001C7681 /* Models */,
+				0BC51D0C2588E485001C7681 /* Views */,
+				0BC51D0B2588E479001C7681 /* Controllers */,
 				0BC51CF52588CC55001C7681 /* AppDelegate.swift */,
 				0BC51CF72588CC55001C7681 /* SceneDelegate.swift */,
-				0BC51CF92588CC55001C7681 /* ViewController.swift */,
-				0BC51CFB2588CC55001C7681 /* Main.storyboard */,
 				0BC51CFE2588CC57001C7681 /* Assets.xcassets */,
-				0BC51D002588CC57001C7681 /* LaunchScreen.storyboard */,
 				0BC51D032588CC57001C7681 /* Info.plist */,
 			);
 			path = Xylophone;
+			sourceTree = "<group>";
+		};
+		0BC51D0B2588E479001C7681 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0BC51CF92588CC55001C7681 /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		0BC51D0C2588E485001C7681 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0BC51CFB2588CC55001C7681 /* Main.storyboard */,
+				0BC51D002588CC57001C7681 /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0BC51D0D2588E48C001C7681 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +154,7 @@
 			files = (
 				0BC51D022588CC57001C7681 /* LaunchScreen.storyboard in Resources */,
 				0BC51CFF2588CC57001C7681 /* Assets.xcassets in Resources */,
+				0BC51D0A2588CFD7001C7681 /* Sounds in Resources */,
 				0BC51CFD2588CC55001C7681 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
